@@ -44,6 +44,7 @@ class FortifyServiceProvider extends ServiceProvider
         });
 
         Fortify::registerView(function () {
+            // folder pages -> folder auth -> baru file register.blade.php
             return view('pages.auth.register');
         });
 

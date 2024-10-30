@@ -14,7 +14,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory(30)->create();
+        User::factory(35)->create();
+        
+        User::factory()->create([
+            'name' => 'ical',
+            'email' => 'icalderr@lek.com',
+            'password' => Hash::make('123456789'),
+            'role' => 'admin',
+            'phone' => '082125046969',
+        ]);
 
         User::factory()->create([
             'name' => 'ekalderr',
@@ -22,14 +30,6 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('123456789'),
             'role' => 'staff',
             'phone' => '082169696969',
-        ]);
-
-        User::factory()->create([
-            'name' => 'ical',
-            'email' => 'ical@lek.com',
-            'password' => Hash::make('123456789'),
-            'role' => 'admin',
-            'phone' => '082125046969',
         ]);
 
         User::factory()->create([

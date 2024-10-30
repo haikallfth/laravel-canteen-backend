@@ -94,7 +94,7 @@
                         </form>
 
                         <div class="text-small mt-5 text-center">
-                            Copyright &copy; IDN Canteen. Made with 🔥 by Ekalderr team
+                            Copyright &copy; IDN Canteen. Made with 🔥 by Ekalderr Team Lekk 🤘🏻
                             <div class="mt-2">
                                 <a href="#">Privacy Policy</a>
                                 <div class="bullet"></div>
